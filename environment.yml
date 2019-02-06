@@ -1,0 +1,13 @@
+name: world_models
+dependencies:
+  - numpy=1.13.3
+  - scipy=0.19.0
+  - python=3.6
+  - mpi4py=2
+  - tensorflow=1.8.0
+  - pip:
+    - gym==0.9.4
+    - cma==2.2.0
+    - box2d-py
+    - pillow
+    - pyopengl
